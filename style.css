@@ -115,3 +115,40 @@ img {
     color: gray;
     font-weight: 500;
 }
+
+/* Call-Image Code  */
+.call-section {
+    background: url(./img/watch.png) no-repeat center center;
+    padding: 150px 0;
+    margin: 100px auto;
+    position: relative;
+}
+
+.call-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 78px;
+    width: 77%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(0, 95, 172));
+    border-radius: 10px;
+}
+
+.call-content {
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 99;
+    /* margin-left: 83px; */
+}
+
+.call-content h1 {
+    font-size: 50px;
+}
+
+.call-content button {
+    margin-top: 20px;
+}
