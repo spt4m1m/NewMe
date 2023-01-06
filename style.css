@@ -142,7 +142,6 @@ img {
     top: 40px;
     left: 100px;
     z-index: 99;
-    /* margin-left: 83px; */
 }
 
 .call-content h1 {
@@ -151,4 +150,99 @@ img {
 
 .call-content button {
     margin-top: 20px;
+}
+
+/* Card Section Code */
+
+.my-mission {
+    padding: 100px 0;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-box {
+    display: flex;
+    margin-left: 11%;
+    margin-top: 50px;
+}
+
+.card-items1 {
+    width: 350px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(175, 238, 238, 0.199);
+    box-shadow: 3px 4px 20px 0 rgb(85 94 135 / 20%);
+}
+
+.card-items2 {
+    width: 350px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 192, 203, 0.199);
+    box-shadow: 3px 4px 20px 0 rgb(85 94 135 / 20%);
+}
+
+.card-items3 {
+    width: 350px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 166, 0, 0.199);
+    box-shadow: 3px 4px 20px 0 rgb(85 94 135 / 20%);
+}
+
+.card-items1 img {
+    max-width: 100%;
+    width: 170px;
+}
+
+.card-items1 h2 {
+    padding: 15px 0;
+    font-size: 27px;
+}
+
+.card-items1 p {
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-items2 img {
+    max-width: 100%;
+    width: 170px;
+}
+
+.card-items2 h2 {
+    padding: 15px 0;
+    font-size: 27px;
+}
+
+.card-items2 p {
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.card-items3 img {
+    max-width: 100%;
+    width: 170px;
+}
+
+.card-items3 h2 {
+    padding: 15px 0;
+    font-size: 27px;
+}
+
+.card-items3 p {
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 18px;
 }
