@@ -31,7 +31,7 @@ img {
 
 /* Header Or Banner Code  */
 .banner {
-    background: url(/img/banner3.png) no-repeat center center;
+    background: url(./img/banner3.png) no-repeat center center;
     padding: 380px;
 }
 
