@@ -18,6 +18,14 @@
     transition: .4s;
 }
 
+.mid-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
 
 
 /* Header Or Banner Code  */
@@ -29,7 +37,7 @@
     height: 100vh;
 }
 
-.content {
+.banner-content {
     color: white;
     width: 40%;
     float: right;
@@ -38,10 +46,44 @@
     text-align: right;
 }
 
-.content h1 {
+.banner-content h1 {
     font-size: 50px;
 }
 
-.content p {
+.banner-content p {
     padding: 20px 0;
+}
+
+/* My Testimonials Code  */
+.my-testimonials {
+    padding: 100px 0;
+}
+
+.right-image {
+    width: 50%;
+    float: left;
+}
+
+.testimonial-content {
+    width: 50%;
+    float: right;
+    margin-top: 200px;
+}
+
+.testimonial-content h1 {
+    font-size: 50px;
+}
+
+.testimonial-content p {
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+.testimonial-content ul {
+    list-style: none;
+}
+
+.testimonial-content ul li span {
+    color: rgb(33, 217, 33);
+    font-size: 22px;
 }
